@@ -1,0 +1,28 @@
+h1 {
+    background-color: aqua;
+    display: block;
+    color: rgb(180, 217, 249);
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a better look */
+    z-index: 1000; /* Ensure the header is above other elements */
+    transition: top 0.8s; /* Add smooth transition effect */
+  }
+  
+  .content {
+    padding: 20px;
+    /* Add some padding to the content to prevent it from being obscured by the sticky header. */
+  }
+  
